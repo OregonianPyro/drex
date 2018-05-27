@@ -1,0 +1,19 @@
+{
+  "name": "drex",
+  "version": "1.0.0",
+  "description": "simple, moderation bot. designed to be open-source or even self-host if you really want to. complete with mute, unmute, kick, ban, unban, settings, and more. nothing crazy. ",
+  "main": "startbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "discord.js": "^11.3.2",
+    "enmap": "^2.5.2",
+    "enmap-level": "^2.1.0",
+    "moment": "^2.22.1",
+    "ms": "^2.1.1"
+  }
+}
