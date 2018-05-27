@@ -8,7 +8,7 @@ client.login(settings.token); //log our client in
 
 //function to return if a user lacks permission to run a command.
 client.noperm = function (msg, perm) {
-    msg.reply(`|\\❌| This command requires that you have the permission \`${perm}\` which you do not!`);
+    msg.reply(`|\\❌| This command requires that you have the permission \`${perm}\` which you do not have!`);
 };
 
 //function to return if the bot lacks a permission for a command.
