@@ -30,7 +30,7 @@ fs.readdir("./events/", (err, files) => {
 //attatch a logging system to our client
 client.log = (color, msg) => {
     console.log(color`${msg}`);
-};require('./functions/action.js');
+};
 client.settings = new Enmap({ provider: new EnmapLevel({ name: "settings" }) });
 client.default = {
     "prefix":"🔨",
